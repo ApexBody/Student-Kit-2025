@@ -12,9 +12,6 @@ import {
   Moon,
   ExternalLink,
   Code,
-  Terminal,
-  Cpu,
-  Zap
 } from 'lucide-react'
 import './App.css'
 
