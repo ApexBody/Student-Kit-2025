@@ -1,0 +1,84 @@
+.programs {
+    margin: 80px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 per row */
+    gap: 20px;
+}
+
+/* Program container */
+.program {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* Main image */
+.program img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+/* Title below the image */
+.program-title {
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    color: #0b0d14;
+}
+
+/* Caption overlay */
+.caption {
+    border-radius: 10px;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Stop before the title */
+    background: rgba(0, 15, 152, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFF;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s;
+    pointer-events: none;
+    border-radius: 10px;
+    padding-top: 70%;
+}
+
+/* Hover overlay image and text */
+.caption img {
+    width: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.caption p {
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.program:hover .caption {
+    opacity: 1;
+    padding-top: 0;
+}
+
+.program:hover .caption img {
+    width: 200px;
+}
+
+.program:hover .caption p {
+    font-size: 30px;
+}
