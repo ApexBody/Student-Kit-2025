@@ -14,6 +14,10 @@ import {
   Code,
 } from 'lucide-react'
 import './App.css'
+import Navbar from './components/nav_bar/nav_bar'
+import Hero from './components/Hero/hero'
+import Title from './components/Title/title'
+import Programs from './components/Programs/program'
 
 function App() {
   const [isDark, setIsDark] = useState(false)
@@ -95,6 +99,15 @@ function App() {
 
   return (
     <div className="app">
+
+        <Navbar/>
+      <Hero/>
+      <div className="container">
+        <Title subTitle='WELCOME to IIIT HYDERABAD' title='Exceptional place for exceptional people'/>
+        <Programs/>
+      </div>
+      
+
       {/* Animated Background */}
       <div className="background-animation">
         <div className="floating-shapes">

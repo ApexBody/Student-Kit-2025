@@ -1,5 +1,5 @@
 {
-  "name": "studentkitmockup",
+  "name": "student-kit",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-  },
-  "dependencies": {
+  },  "dependencies": {
     "framer-motion": "^12.15.0",
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",
