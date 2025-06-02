@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { 
-  FileText, 
-  Calendar, 
-  Users, 
-  MapPin, 
-  Navigation, 
-  Camera, 
+import {
+  FileText,
+  Calendar,
+  Users,
+  MapPin,
+  Navigation,
+  Camera,
   BookOpen,
   Sun,
   Moon,
@@ -92,6 +92,19 @@ function Kit() {
     setSelectedCategory(null)
   }
 
+  const scrollToLanding = () => {
+    const nextSection = document.querySelector('.landing-section')
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+  const scrollToStudentKit = () => {
+    const kitSection = document.querySelector('.life-at-iiith');
+    if (kitSection) {
+      kitSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="kit">
 
@@ -149,7 +162,7 @@ function Kit() {
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
-                whileHover={{ 
+                whileHover={{
                   scale: 1.05,
                   rotateY: 5,
                 }}
@@ -254,26 +267,26 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">📱 Services & Facilities</h3>
-                          
+
                           <div className="subsection">
                             <h4>📞 Cellphone Connections:</h4>
-                            <p>Available at Indira Nagar (1 km from campus). Providers: Vodafone, Airtel, etc. 
-                            <br/><em>💡 Tip: Bring documents from home for easier account setup.</em></p>
+                            <p>Available at Indira Nagar (1 km from campus). Providers: Vodafone, Airtel, etc.
+                              <br /><em>💡 Tip: Bring documents from home for easier account setup.</em></p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏪 Bank Accounts:</h4>
-                            <p>SBI branch available on campus. SBI & HDFC ATMs present. 
-                            <br/><em>💡 Tip: Bring documents and photos from home for quicker processing.</em></p>
+                            <p>SBI branch available on campus. SBI & HDFC ATMs present.
+                              <br /><em>💡 Tip: Bring documents and photos from home for quicker processing.</em></p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏥 Healthcare:</h4>
-                            <p>• Apollo Pharmacy within 1 km<br/>
-                            • Aarogya centre with daytime doctors<br/>
-                            • First aid with hostel guards<br/>
-                            • Ambulance on call<br/>
-                            • Student discounts at nearby hospitals</p>
+                            <p>• Apollo Pharmacy within 1 km<br />
+                              • Aarogya centre with daytime doctors<br />
+                              • First aid with hostel guards<br />
+                              • Ambulance on call<br />
+                              • Student discounts at nearby hospitals</p>
                             <p><em>⚠️ Bring necessary personal medicines</em></p>
                           </div>
                         </div>
@@ -294,7 +307,7 @@ function Kit() {
                     </div>
                     <div className="documents-content">
                       <div className="section">
-                        <div className="code-comment" style={{marginBottom: '1rem'}}>
+                        <div className="code-comment" style={{ marginBottom: '1rem' }}>
                           <span className="comment-syntax">//</span> Note: The Schedule is tentative in nature and subject to change.
                         </div>
 
@@ -302,14 +315,14 @@ function Kit() {
                           <h3 className="section-title">📅 Friday, 27th July 2017</h3>
                           <div className="subsection">
                             <h4>🎓 PG Registrations</h4>
-                            <p><strong>Time:</strong> 9:00 AM - 2:00 PM<br/>
-                            <strong>Venue:</strong> 105 Himalaya</p>
+                            <p><strong>Time:</strong> 9:00 AM - 2:00 PM<br />
+                              <strong>Venue:</strong> 105 Himalaya</p>
                           </div>
                           <div className="subsection">
                             <h4>🎉 Welcome Session</h4>
-                            <p><strong>Time:</strong> 4:00 PM - 5:30 PM<br/>
-                            <strong>Venue:</strong> Amphi Theatre<br/>
-                            <em>Welcome note by the Faculty and the Students</em></p>
+                            <p><strong>Time:</strong> 4:00 PM - 5:30 PM<br />
+                              <strong>Venue:</strong> Amphi Theatre<br />
+                              <em>Welcome note by the Faculty and the Students</em></p>
                           </div>
                         </div>
 
@@ -317,20 +330,20 @@ function Kit() {
                           <h3 className="section-title">📅 Saturday, 28th July 2017</h3>
                           <div className="subsection">
                             <h4>🎓 UG Registrations</h4>
-                            <p><strong>Time:</strong> 9:00 AM - 2:00 PM<br/>
-                            <strong>Venue:</strong> 105 Himalaya</p>
+                            <p><strong>Time:</strong> 9:00 AM - 2:00 PM<br />
+                              <strong>Venue:</strong> 105 Himalaya</p>
                           </div>
                           <div className="subsection">
                             <h4>🎉 Welcome Session</h4>
-                            <p><strong>Time:</strong> 4:00 PM - 5:30 PM<br/>
-                            <strong>Venue:</strong> Amphi Theatre<br/>
-                            <em>Welcome note by the Faculty and the Students</em></p>
+                            <p><strong>Time:</strong> 4:00 PM - 5:30 PM<br />
+                              <strong>Venue:</strong> Amphi Theatre<br />
+                              <em>Welcome note by the Faculty and the Students</em></p>
                           </div>
                           <div className="subsection">
                             <h4>🚶 Campus Tour and Meeting the Mentors</h4>
-                            <p><strong>Time:</strong> 5:30 PM - 6:30 PM<br/>
-                            <strong>Venue:</strong> Gathering Outside Himalaya<br/>
-                            <em>Getting familiar with the campus via your mentors</em></p>
+                            <p><strong>Time:</strong> 5:30 PM - 6:30 PM<br />
+                              <strong>Venue:</strong> Gathering Outside Himalaya<br />
+                              <em>Getting familiar with the campus via your mentors</em></p>
                           </div>
                         </div>
 
@@ -338,32 +351,32 @@ function Kit() {
                           <h3 className="section-title">📅 Sunday, 29th July 2017</h3>
                           <div className="subsection">
                             <h4>📝 English Test Reporting</h4>
-                            <p><strong>Time:</strong> 9:00 AM<br/>
-                            <strong>Venue:</strong> Himalaya 205<br/>
-                            <em>⚠️ Mandatory Test for all UG1</em></p>
+                            <p><strong>Time:</strong> 9:00 AM<br />
+                              <strong>Venue:</strong> Himalaya 205<br />
+                              <em>⚠️ Mandatory Test for all UG1</em></p>
                           </div>
                           <div className="subsection">
                             <h4>📋 Briefing of New Students</h4>
-                            <p><strong>Time:</strong> 9:15 AM - 9:30 AM<br/>
-                            <strong>Venue:</strong> Himalaya 205<br/>
-                            <em>Briefing by Dr. Aniket</em></p>
+                            <p><strong>Time:</strong> 9:15 AM - 9:30 AM<br />
+                              <strong>Venue:</strong> Himalaya 205<br />
+                              <em>Briefing by Dr. Aniket</em></p>
                           </div>
                           <div className="subsection">
                             <h4>✍️ English Diagnostic Test</h4>
-                            <p><strong>Time:</strong> 9:15 AM - 9:30 AM<br/>
-                            <strong>Venue:</strong> Himalaya 205<br/>
-                            <em>For all UG1 students except SPEC</em></p>
+                            <p><strong>Time:</strong> 9:15 AM - 9:30 AM<br />
+                              <strong>Venue:</strong> Himalaya 205<br />
+                              <em>For all UG1 students except SPEC</em></p>
                           </div>
                           <div className="subsection">
                             <h4>👨‍👩‍👧‍👦 Parent's Meet with Faculty</h4>
-                            <p><strong>Time:</strong> 9:00 AM - 12:00 Noon<br/>
-                            <strong>Venue:</strong> Himalaya 105</p>
+                            <p><strong>Time:</strong> 9:00 AM - 12:00 Noon<br />
+                              <strong>Venue:</strong> Himalaya 105</p>
                           </div>
                           <div className="subsection">
                             <h4>🎯 Dual Degree Orientation</h4>
-                            <p><strong>Time:</strong> 1:00 PM - 3:00 PM<br/>
-                            <strong>Venue:</strong> Himalaya 205<br/>
-                            <em>Discussion with Dual Degree Students and Parents</em></p>
+                            <p><strong>Time:</strong> 1:00 PM - 3:00 PM<br />
+                              <strong>Venue:</strong> Himalaya 205<br />
+                              <em>Discussion with Dual Degree Students and Parents</em></p>
                           </div>
                         </div>
 
@@ -391,7 +404,7 @@ function Kit() {
                     </div>
                     <div className="documents-content">
                       <div className="section">
-                        <div className="section-desc" style={{textAlign: 'center', fontSize: '1rem', marginBottom: '2rem'}}>
+                        <div className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
                           <strong>🎓 Hear from our alumni and current students about their journey at IIIT-H</strong>
                         </div>
 
@@ -523,133 +536,133 @@ function Kit() {
                     </div>
                     <div className="documents-content">
                       <div className="section">
-                        <div className="section-desc" style={{textAlign: 'center', fontSize: '1rem', marginBottom: '2rem'}}>
+                        <div className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
                           <strong>🏨 Accommodation options for visitors and families near the campus</strong>
                         </div>
 
                         <div className="section">
                           <h3 className="section-title">💰 Budget Hotels (₹900 - ₹2000)</h3>
-                          
+
                           <div className="subsection">
                             <h4>🏨 Delight Inn - ₹900/-</h4>
-                            <p><strong>📍 Address:</strong> 1-60-30-5/134, Near Botanical Garden, Gachibowli<br/>
-                            <strong>📞 Contact:</strong> +91-99483 11666</p>
+                            <p><strong>📍 Address:</strong> 1-60-30-5/134, Near Botanical Garden, Gachibowli<br />
+                              <strong>📞 Contact:</strong> +91-99483 11666</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 FabHotel KRS Nest Gachibowli - ₹1300/-</h4>
-                            <p><strong>📍 Address:</strong> Plot No.1-60/30/10 & 9, Gachibowli Miyapur Rd<br/>
-                            <strong>📞 Contact:</strong> +91-70424 24242</p>
+                            <p><strong>📍 Address:</strong> Plot No.1-60/30/10 & 9, Gachibowli Miyapur Rd<br />
+                              <strong>📞 Contact:</strong> +91-70424 24242</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 Zen Comforts - ₹1400/- (Single A/C)</h4>
-                            <p><strong>📍 Address:</strong> Plot no 32, near Radisson Hotel, Jayabheri Enclave<br/>
-                            <strong>📞 Contact:</strong> +91-98492 31919</p>
+                            <p><strong>📍 Address:</strong> Plot no 32, near Radisson Hotel, Jayabheri Enclave<br />
+                              <strong>📞 Contact:</strong> +91-98492 31919</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 Hotel Madhura Inn XCLUSIVE - ₹1500/-</h4>
-                            <p><strong>📍 Address:</strong> 4-47, MIG 69, Opp. DLF 3rd Gate, APHB Colony<br/>
-                            <strong>📞 Contact:</strong> +91-81793 63579</p>
+                            <p><strong>📍 Address:</strong> 4-47, MIG 69, Opp. DLF 3rd Gate, APHB Colony<br />
+                              <strong>📞 Contact:</strong> +91-81793 63579</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 OYO 8587 Dwell Suites - ₹1500/-</h4>
-                            <p><strong>📍 Address:</strong> Vittal Rao Nagar, Madhapur<br/>
-                            <strong>📞 Contact:</strong> +91-70650 67406</p>
+                            <p><strong>📍 Address:</strong> Vittal Rao Nagar, Madhapur<br />
+                              <strong>📞 Contact:</strong> +91-70650 67406</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 Treebo Royal Grand Inn - ₹1600/-</h4>
-                            <p><strong>📍 Address:</strong> No. 1-57/37 & 1-58/106, Kondapur to Gachibowli Road<br/>
-                            <strong>📞 Contact:</strong> +91-93228 00100</p>
+                            <p><strong>📍 Address:</strong> No. 1-57/37 & 1-58/106, Kondapur to Gachibowli Road<br />
+                              <strong>📞 Contact:</strong> +91-93228 00100</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 FabHotel Hill View Gachibowli - ₹1600/-</h4>
-                            <p><strong>📍 Address:</strong> Plot No 38, Phase - 2, Jayabheri Enclave<br/>
-                            <strong>📞 Contact:</strong> +91-07042424242</p>
+                            <p><strong>📍 Address:</strong> Plot No 38, Phase - 2, Jayabheri Enclave<br />
+                              <strong>📞 Contact:</strong> +91-07042424242</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 Kanha Boutique Hotel - ₹1700/-</h4>
-                            <p><strong>📍 Address:</strong> HIG-A-64, Mahati Chambers, APHB Colony<br/>
-                            <strong>📞 Contact:</strong> +91-98484 47171</p>
+                            <p><strong>📍 Address:</strong> HIG-A-64, Mahati Chambers, APHB Colony<br />
+                              <strong>📞 Contact:</strong> +91-98484 47171</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 Treebo Pratz Inn - ₹2000/-</h4>
-                            <p><strong>📍 Address:</strong> HIG-A-21, APHB Colony, opposite Gate-2, DLF Cyber City<br/>
-                            <strong>📞 Contact:</strong> +91-93228 00100</p>
+                            <p><strong>📍 Address:</strong> HIG-A-21, APHB Colony, opposite Gate-2, DLF Cyber City<br />
+                              <strong>📞 Contact:</strong> +91-93228 00100</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 Hotel Silicon Ville - ₹2000/-</h4>
-                            <p><strong>📍 Address:</strong> H.No. 4-50/9, Jayabheri Enclave, Behind Radisson Hotel<br/>
-                            <strong>📞 Contact:</strong> +91-87122 01999</p>
+                            <p><strong>📍 Address:</strong> H.No. 4-50/9, Jayabheri Enclave, Behind Radisson Hotel<br />
+                              <strong>📞 Contact:</strong> +91-87122 01999</p>
                           </div>
                         </div>
 
                         <div className="section">
                           <h3 className="section-title">🏪 Mid-Range Hotels (₹2300 - ₹4000)</h3>
-                          
+
                           <div className="subsection">
                             <h4>🏨 The Lime Boutique Suites - ₹2300/-</h4>
-                            <p><strong>📍 Address:</strong> Jayabheri Enclave, 4-50/47, Gachibowli - Miyapur Rd<br/>
-                            <strong>📞 Contact:</strong> 040 6687 0000</p>
+                            <p><strong>📍 Address:</strong> Jayabheri Enclave, 4-50/47, Gachibowli - Miyapur Rd<br />
+                              <strong>📞 Contact:</strong> 040 6687 0000</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 Deccan Serai Hotel - ₹2500/-</h4>
-                            <p><strong>📍 Address:</strong> 82 & 84, Hitech City Main Road<br/>
-                            <strong>📞 Contact:</strong> 040 4026 5555</p>
+                            <p><strong>📍 Address:</strong> 82 & 84, Hitech City Main Road<br />
+                              <strong>📞 Contact:</strong> 040 4026 5555</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 Avasa Hotel - ₹3500/-</h4>
-                            <p><strong>📍 Address:</strong> Plot No. 15, 24, 25 & 26, Survey No.64, Sector-1, Huda Techno Enclave<br/>
-                            <strong>📞 Contact:</strong> 040-67282828</p>
+                            <p><strong>📍 Address:</strong> Plot No. 15, 24, 25 & 26, Survey No.64, Sector-1, Huda Techno Enclave<br />
+                              <strong>📞 Contact:</strong> 040-67282828</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 Lemon Tree Hotel, Gachibowli - ₹3909/-</h4>
-                            <p><strong>📍 Address:</strong> Survey No. 115/1, Financial District, Nanakram Guda<br/>
-                            <strong>📞 Contact:</strong> 040 4414 1414</p>
+                            <p><strong>📍 Address:</strong> Survey No. 115/1, Financial District, Nanakram Guda<br />
+                              <strong>📞 Contact:</strong> 040 4414 1414</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 Ibis Hyderabad Hitec City - ₹4000/-</h4>
-                            <p><strong>📍 Address:</strong> Plot 3/2, Sector II HUDA Techno Enclave Near Cyber Towers<br/>
-                            <strong>📞 Contact:</strong> 040 3009 3009</p>
+                            <p><strong>📍 Address:</strong> Plot 3/2, Sector II HUDA Techno Enclave Near Cyber Towers<br />
+                              <strong>📞 Contact:</strong> 040 3009 3009</p>
                           </div>
                         </div>
 
                         <div className="section">
                           <h3 className="section-title">✨ Luxury Hotels (₹5000+)</h3>
-                          
+
                           <div className="subsection">
                             <h4>🏨 Red Fox Hotel, Hyderabad - ₹5300/-</h4>
-                            <p><strong>📍 Address:</strong> Plot No. 1 & 2, Survey No. 64 (P), Hitech City Road<br/>
-                            <strong>📞 Contact:</strong> 040 4448 4848</p>
+                            <p><strong>📍 Address:</strong> Plot No. 1 & 2, Survey No. 64 (P), Hitech City Road<br />
+                              <strong>📞 Contact:</strong> 040 4448 4848</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 Radisson Hyderabad HITEC City - ₹6000/-</h4>
-                            <p><strong>📍 Address:</strong> Miyapur Road, Chhota Anjaiah Nagar, Gachibowli<br/>
-                            <strong>📞 Contact:</strong> 040 6769 6769</p>
+                            <p><strong>📍 Address:</strong> Miyapur Road, Chhota Anjaiah Nagar, Gachibowli<br />
+                              <strong>📞 Contact:</strong> 040 6769 6769</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 Trident - ₹10000/-</h4>
-                            <p><strong>📍 Address:</strong> Survey No.64, Hitech City Main Road, Near Cyber Towers<br/>
-                            <strong>📞 Contact:</strong> 040 6623 2323</p>
+                            <p><strong>📍 Address:</strong> Survey No.64, Hitech City Main Road, Near Cyber Towers<br />
+                              <strong>📞 Contact:</strong> 040 6623 2323</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏨 The Westin Hyderabad Mindspace - ₹13000/-</h4>
-                            <p><strong>📍 Address:</strong> Building 1 K.Raheja I.T. Park, Inovies St, HUDA Techno Enclave<br/>
-                            <strong>📞 Contact:</strong> 040 6767 6767</p>
+                            <p><strong>📍 Address:</strong> Building 1 K.Raheja I.T. Park, Inovies St, HUDA Techno Enclave<br />
+                              <strong>📞 Contact:</strong> 040 6767 6767</p>
                           </div>
                         </div>
 
@@ -678,7 +691,7 @@ function Kit() {
                     </div>
                     <div className="documents-content">
                       <div className="section">
-                        <div className="section-desc" style={{textAlign: 'center', fontSize: '1rem', marginBottom: '2rem'}}>
+                        <div className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
                           <strong>🗺️ Complete travel guide to reach IIIT Hyderabad from anywhere in the city</strong>
                         </div>
 
@@ -700,65 +713,65 @@ function Kit() {
                           <h3 className="section-title">✈️ From Rajiv Gandhi International Airport</h3>
                           <div className="subsection">
                             <h4>📍 Distance: Approximately 33 km from IIIT-H</h4>
-                            
+
                             <div className="subsection">
                               <h4>🚌 Aero-Express (Recommended for Budget Travel)</h4>
-                              <p><strong>🎫 Cost:</strong> ₹200/- per person (inclusive of all taxes)<br/>
-                              <strong>🛣️ Route:</strong> Airport → Gachibowli (Indira Nagar Chowk)<br/>
-                              <strong>⏰ Frequency:</strong> Every 30-45 minutes</p>
-                              <p><strong>🚗 From Indira Nagar to IIIT-H:</strong><br/>
-                              • Auto: ₹20-30/-<br/>
-                              • Bus No. 216: ₹10-15/-</p>
+                              <p><strong>🎫 Cost:</strong> ₹200/- per person (inclusive of all taxes)<br />
+                                <strong>🛣️ Route:</strong> Airport → Gachibowli (Indira Nagar Chowk)<br />
+                                <strong>⏰ Frequency:</strong> Every 30-45 minutes</p>
+                              <p><strong>🚗 From Indira Nagar to IIIT-H:</strong><br />
+                                • Auto: ₹20-30/-<br />
+                                • Bus No. 216: ₹10-15/-</p>
                             </div>
 
                             <div className="subsection">
                               <h4>🚖 Direct Taxi/Cab Options</h4>
-                              <p><strong>💰 Approximate Cost:</strong><br/>
-                              • Uber/Ola: ₹400-600/-<br/>
-                              • Pre-paid Taxi: ₹500-700/-<br/>
-                              • Airport Taxi: ₹600-800/-</p>
+                              <p><strong>💰 Approximate Cost:</strong><br />
+                                • Uber/Ola: ₹400-600/-<br />
+                                • Pre-paid Taxi: ₹500-700/-<br />
+                                • Airport Taxi: ₹600-800/-</p>
                               <p><em>⏱️ Travel Time: 45-60 minutes (depending on traffic)</em></p>
                             </div>
 
                             <div className="subsection">
                               <h4>📞 For Assistance Contact:</h4>
-                              <p><strong>Yahnit Sirineni:</strong> +91-8919159928<br/>
-                              <strong>Mugdha Abhyankar:</strong> +91-7337466003</p>
+                              <p><strong>Yahnit Sirineni:</strong> +91-8919159928<br />
+                                <strong>Mugdha Abhyankar:</strong> +91-7337466003</p>
                             </div>
                           </div>
                         </div>
 
                         <div className="section">
                           <h3 className="section-title">🚂 From Railway Stations</h3>
-                          
+
                           <div className="subsection">
                             <h4>🚉 Secunderabad Railway Station</h4>
-                            <p><strong>📍 Distance:</strong> ~25 km to IIIT-H<br/>
-                            <strong>🚗 Direct Auto:</strong> ₹300-350/-<br/>
-                            <strong>⏱️ Travel Time:</strong> 45-60 minutes</p>
+                            <p><strong>📍 Distance:</strong> ~25 km to IIIT-H<br />
+                              <strong>🚗 Direct Auto:</strong> ₹300-350/-<br />
+                              <strong>⏱️ Travel Time:</strong> 45-60 minutes</p>
                             <p><em>💡 Secunderabad is the main junction - most long-distance trains stop here</em></p>
                           </div>
 
                           <div className="subsection">
                             <h4>🚉 Nampally Railway Station (Hyderabad)</h4>
-                            <p><strong>📍 Distance:</strong> ~18 km to IIIT-H<br/>
-                            <strong>🚗 Direct Auto:</strong> ~₹300/-<br/>
-                            <strong>⏱️ Travel Time:</strong> 35-45 minutes</p>
+                            <p><strong>📍 Distance:</strong> ~18 km to IIIT-H<br />
+                              <strong>🚗 Direct Auto:</strong> ~₹300/-<br />
+                              <strong>⏱️ Travel Time:</strong> 35-45 minutes</p>
                             <p><em>💡 Also called Hyderabad station - closer to old city</em></p>
                           </div>
 
                           <div className="subsection">
                             <h4>🚉 Kacheguda Railway Station</h4>
-                            <p><strong>📍 Distance:</strong> ~23 km to IIIT-H<br/>
-                            <strong>🚗 Direct Auto:</strong> ₹300-320/-<br/>
-                            <strong>⏱️ Travel Time:</strong> 40-50 minutes</p>
+                            <p><strong>📍 Distance:</strong> ~23 km to IIIT-H<br />
+                              <strong>🚗 Direct Auto:</strong> ₹300-320/-<br />
+                              <strong>⏱️ Travel Time:</strong> 40-50 minutes</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🚊 Lingampally Station (MMTS) - Closest Option</h4>
-                            <p><strong>📍 Distance:</strong> ~7 km from IIIT-H<br/>
-                            <strong>🚗 Auto fare:</strong> ~₹50/-<br/>
-                            <strong>⏱️ Travel Time:</strong> 15-20 minutes</p>
+                            <p><strong>📍 Distance:</strong> ~7 km from IIIT-H<br />
+                              <strong>🚗 Auto fare:</strong> ~₹50/-<br />
+                              <strong>⏱️ Travel Time:</strong> 15-20 minutes</p>
                             <p><strong>🚊 MMTS Connection:</strong> You can reach Lingampally from all major railway stations via MMTS (local train)</p>
                             <p><strong>🌐 MMTS Timetable:</strong> <a href="http://www.mmtstraintimings.in/timetable.aspx" target="_blank">www.mmtstraintimings.in/timetable.aspx</a></p>
                             <p><em>💡 MMTS is economical (₹5-15) but check timing schedules</em></p>
@@ -766,14 +779,14 @@ function Kit() {
 
                           <div className="subsection">
                             <h4>📞 For Railway Station Assistance Contact:</h4>
-                            <p><strong>Yahnit Sirineni:</strong> +91-8919159928<br/>
-                            <strong>Mugdha Abhyankar:</strong> +91-7337466003</p>
+                            <p><strong>Yahnit Sirineni:</strong> +91-8919159928<br />
+                              <strong>Mugdha Abhyankar:</strong> +91-7337466003</p>
                           </div>
                         </div>
 
                         <div className="section">
                           <h3 className="section-title">🚖 Cab & Auto Services</h3>
-                          
+
                           <div className="subsection">
                             <h4>📱 App-Based Services (Most Convenient)</h4>
                             <ul className="item-list">
@@ -805,13 +818,13 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">🚌 Public Transport (Budget-Friendly)</h3>
-                          
+
                           <div className="subsection">
                             <h4>🚏 TSRTC Buses</h4>
-                            <p><strong>💰 Cost:</strong> ₹10-30/- (very economical)<br/>
-                            <strong>🛣️ Availability:</strong> Buses readily available from all over Hyderabad to IIIT-H<br/>
-                            <strong>📍 Key Bus Routes:</strong> Check for buses going to Gachibowli/IIIT</p>
-                            
+                            <p><strong>💰 Cost:</strong> ₹10-30/- (very economical)<br />
+                              <strong>🛣️ Availability:</strong> Buses readily available from all over Hyderabad to IIIT-H<br />
+                              <strong>📍 Key Bus Routes:</strong> Check for buses going to Gachibowli/IIIT</p>
+
                             <div className="subsection">
                               <h4>🔍 Important Bus Numbers</h4>
                               <ul className="item-list">
@@ -828,7 +841,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">📱 Useful Apps & Resources</h3>
-                          
+
                           <div className="subsection">
                             <h4>📲 Essential Apps to Download</h4>
                             <ul className="item-list">
@@ -852,7 +865,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">💡 Pro Tips for New Students</h3>
-                          
+
                           <div className="subsection">
                             <h4>🎯 Money-Saving Tips</h4>
                             <ul className="item-list">
@@ -900,175 +913,175 @@ function Kit() {
                     </div>
                     <div className="documents-content">
                       <div className="section">
-                        <div className="section-desc" style={{textAlign: 'center', fontSize: '1rem', marginBottom: '2rem'}}>
+                        <div className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
                           <strong>🏛️ Discover the vibrant city of Hyderabad - a perfect blend of history, technology, and culture!</strong>
                         </div>
 
                         <div className="section">
                           <h3 className="section-title">🏰 Historical Landmarks</h3>
-                          
+
                           <div className="subsection">
                             <h4>🕌 Charminar (30 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 5/5 | <strong>🎫 Entry:</strong> ₹5 for Indians<br/>
-                            <strong>⏰ Timings:</strong> 9:30 AM - 5:30 PM | <strong>📸 Photography:</strong> ₹25</p>
+                            <p><strong>⭐ Rating:</strong> 5/5 | <strong>🎫 Entry:</strong> ₹5 for Indians<br />
+                              <strong>⏰ Timings:</strong> 9:30 AM - 5:30 PM | <strong>📸 Photography:</strong> ₹25</p>
                             <p>Iconic 16th-century monument and symbol of Hyderabad. Famous for its four grand arches and bustling surrounding markets. Perfect for evening visits when it's beautifully lit.</p>
                             <p><em>💡 Pro tip: Combine with Laad Bazaar shopping for pearls and bangles!</em></p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏰 Golconda Fort (25 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 5/5 | <strong>🎫 Entry:</strong> ₹15 for Indians<br/>
-                            <strong>⏰ Timings:</strong> 9:00 AM - 6:00 PM | <strong>🎤 Sound & Light Show:</strong> 7:00 PM (₹130)</p>
+                            <p><strong>⭐ Rating:</strong> 5/5 | <strong>🎫 Entry:</strong> ₹15 for Indians<br />
+                              <strong>⏰ Timings:</strong> 9:00 AM - 6:00 PM | <strong>🎤 Sound & Light Show:</strong> 7:00 PM (₹130)</p>
                             <p>Magnificent 13th-century fortress known for its acoustic architecture and diamond mines. The climb to the top offers panoramic city views.</p>
                             <p><em>🌅 Best time: Early morning or evening to avoid heat</em></p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏺 Salar Jung Museum (35 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🎫 Entry:</strong> ₹20 for Indians<br/>
-                            <strong>⏰ Timings:</strong> 10:00 AM - 5:00 PM | <strong>🚫 Closed:</strong> Fridays</p>
+                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🎫 Entry:</strong> ₹20 for Indians<br />
+                              <strong>⏰ Timings:</strong> 10:00 AM - 5:00 PM | <strong>🚫 Closed:</strong> Fridays</p>
                             <p>One of India's largest museums with an incredible collection of art, artifacts, and the famous musical clock. Perfect for history enthusiasts.</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏛️ Falaknuma Palace (40 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🎫 Entry:</strong> ₹50 for guided tour<br/>
-                            <strong>⏰ Timings:</strong> 9:30 AM - 5:00 PM | <strong>📞 Booking:</strong> Required in advance</p>
+                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🎫 Entry:</strong> ₹50 for guided tour<br />
+                              <strong>⏰ Timings:</strong> 9:30 AM - 5:00 PM | <strong>📞 Booking:</strong> Required in advance</p>
                             <p>Stunning palace turned luxury hotel with opulent interiors. Guided tours showcase royal lifestyle and architecture.</p>
                           </div>
                         </div>
 
                         <div className="section">
                           <h3 className="section-title">🌿 Natural Attractions & Parks</h3>
-                          
+
                           <div className="subsection">
                             <h4>🚢 Hussain Sagar Lake (30 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🚤 Boat Ride:</strong> ₹50-100<br/>
-                            <strong>⏰ Best time:</strong> Evening | <strong>🎆 Special:</strong> Musical fountain show</p>
+                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🚤 Boat Ride:</strong> ₹50-100<br />
+                              <strong>⏰ Best time:</strong> Evening | <strong>🎆 Special:</strong> Musical fountain show</p>
                             <p>Heart-shaped lake with the iconic Buddha statue in the center. Enjoy boat rides, street food, and beautiful sunset views.</p>
                             <p><em>🎵 Don't miss the musical fountain show in the evening!</em></p>
                           </div>
 
                           <div className="subsection">
                             <h4>🌳 KBR National Park (15 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🎫 Entry:</strong> ₹30<br/>
-                            <strong>⏰ Timings:</strong> 6:00 AM - 6:00 PM | <strong>🦌 Wildlife:</strong> 600+ species</p>
+                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🎫 Entry:</strong> ₹30<br />
+                              <strong>⏰ Timings:</strong> 6:00 AM - 6:00 PM | <strong>🦌 Wildlife:</strong> 600+ species</p>
                             <p>Urban national park perfect for morning jogs, nature walks, and bird watching. Home to peacocks, deer, and various bird species.</p>
                             <p><em>🏃‍♂️ Popular jogging spot for techies and students!</em></p>
                           </div>
 
                           <div className="subsection">
                             <h4>🌺 Botanical Garden (15 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🎫 Entry:</strong> ₹25<br/>
-                            <strong>⏰ Timings:</strong> 8:30 AM - 6:30 PM | <strong>🦋 Special:</strong> Butterfly garden</p>
+                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🎫 Entry:</strong> ₹25<br />
+                              <strong>⏰ Timings:</strong> 8:30 AM - 6:30 PM | <strong>🦋 Special:</strong> Butterfly garden</p>
                             <p>Sprawling gardens with diverse flora, butterfly garden, and serene walking paths. Great for picnics and nature photography.</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏞️ Osman Sagar Lake (45 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🎫 Entry:</strong> Free<br/>
-                            <strong>⏰ Best time:</strong> Sunrise/Sunset | <strong>🏔️ View:</strong> Scenic hills</p>
+                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🎫 Entry:</strong> Free<br />
+                              <strong>⏰ Best time:</strong> Sunrise/Sunset | <strong>🏔️ View:</strong> Scenic hills</p>
                             <p>Peaceful lake surrounded by hills, perfect for weekend getaways and photography. Less crowded than Hussain Sagar.</p>
                           </div>
                         </div>
 
                         <div className="section">
                           <h3 className="section-title">🛍️ Shopping & Entertainment</h3>
-                          
+
                           <div className="subsection">
                             <h4>🛒 HITEC City & Cyberabad (10 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🏢 Malls:</strong> Inorbit, Forum, Mindspace<br/>
-                            <strong>🍕 Food:</strong> International cuisines | <strong>🎬 Entertainment:</strong> Multiplex cinemas</p>
+                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🏢 Malls:</strong> Inorbit, Forum, Mindspace<br />
+                              <strong>🍕 Food:</strong> International cuisines | <strong>🎬 Entertainment:</strong> Multiplex cinemas</p>
                             <p>India's largest IT hub with modern malls, restaurants, and entertainment options. Perfect for weekend hangouts.</p>
                             <p><em>💼 Experience the tech capital vibe where you'll likely work after graduation!</em></p>
                           </div>
 
                           <div className="subsection">
                             <h4>🛍️ Banjara Hills & Jubilee Hills (25 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🛒 Shopping:</strong> Road No. 12, GVK One<br/>
-                            <strong>🍽️ Dining:</strong> Fine restaurants | <strong>☕ Cafes:</strong> Trendy coffee shops</p>
+                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🛒 Shopping:</strong> Road No. 12, GVK One<br />
+                              <strong>🍽️ Dining:</strong> Fine restaurants | <strong>☕ Cafes:</strong> Trendy coffee shops</p>
                             <p>Upscale neighborhoods with premium shopping, fine dining, and vibrant nightlife. Popular among young professionals.</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏪 Laad Bazaar (Near Charminar)</h4>
-                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>💎 Famous for:</strong> Pearls, bangles, jewelry<br/>
-                            <strong>⏰ Timings:</strong> 11:00 AM - 9:00 PM | <strong>💰 Bargaining:</strong> Essential!</p>
+                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>💎 Famous for:</strong> Pearls, bangles, jewelry<br />
+                              <strong>⏰ Timings:</strong> 11:00 AM - 9:00 PM | <strong>💰 Bargaining:</strong> Essential!</p>
                             <p>Traditional market famous for pearls, bangles, and Hyderabadi artifacts. Perfect for buying souvenirs and gifts.</p>
                           </div>
                         </div>
 
                         <div className="section">
                           <h3 className="section-title">🍽️ Food Paradise</h3>
-                          
+
                           <div className="subsection">
                             <h4>🍖 Paradise Restaurant (Multiple locations)</h4>
-                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🥘 Famous for:</strong> Hyderabadi Biryani<br/>
-                            <strong>💰 Price:</strong> ₹300-500 per person | <strong>🌟 Must-try:</strong> Mutton Biryani</p>
+                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🥘 Famous for:</strong> Hyderabadi Biryani<br />
+                              <strong>💰 Price:</strong> ₹300-500 per person | <strong>🌟 Must-try:</strong> Mutton Biryani</p>
                             <p>Legendary restaurant chain serving authentic Hyderabadi biryani since 1953. A culinary pilgrimage for every visitor!</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🧁 Famous Ice Cream (Secunderabad)</h4>
-                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🍦 Famous for:</strong> Unique flavors<br/>
-                            <strong>💰 Price:</strong> ₹50-150 | <strong>🌟 Must-try:</strong> Kesar Kulfi, Dry fruit</p>
+                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🍦 Famous for:</strong> Unique flavors<br />
+                              <strong>💰 Price:</strong> ₹50-150 | <strong>🌟 Must-try:</strong> Kesar Kulfi, Dry fruit</p>
                             <p>Iconic ice cream parlor with traditional flavors and generous portions. Perfect summer treat!</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🥤 Irani Chai (Old City)</h4>
-                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>☕ Famous for:</strong> Strong tea + Osmania biscuits<br/>
-                            <strong>💰 Price:</strong> ₹15-30 | <strong>📍 Best spots:</strong> Nimrah Café, Hotel Shadab</p>
+                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>☕ Famous for:</strong> Strong tea + Osmania biscuits<br />
+                              <strong>💰 Price:</strong> ₹15-30 | <strong>📍 Best spots:</strong> Nimrah Café, Hotel Shadab</p>
                             <p>Experience the authentic Hyderabadi tea culture at traditional Irani cafés. Perfect for evening conversations!</p>
                           </div>
                         </div>
 
                         <div className="section">
                           <h3 className="section-title">🎯 Student-Friendly Spots</h3>
-                          
+
                           <div className="subsection">
                             <h4>🎮 Forum Sujana Mall (20 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🎪 Entertainment:</strong> Gaming zone, bowling<br/>
-                            <strong>🍔 Food court:</strong> Budget-friendly | <strong>🎬 Cinema:</strong> Latest movies</p>
+                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🎪 Entertainment:</strong> Gaming zone, bowling<br />
+                              <strong>🍔 Food court:</strong> Budget-friendly | <strong>🎬 Cinema:</strong> Latest movies</p>
                             <p>Popular hangout for students with gaming zones, affordable food, and entertainment options.</p>
                           </div>
 
                           <div className="subsection">
                             <h4>☕ Coffee Culture (Multiple locations)</h4>
-                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>📚 Study-friendly:</strong> Wi-Fi + quiet zones<br/>
-                            <strong>💰 Budget:</strong> ₹100-200 | <strong>🌟 Popular:</strong> Café Coffee Day, Starbucks</p>
+                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>📚 Study-friendly:</strong> Wi-Fi + quiet zones<br />
+                              <strong>💰 Budget:</strong> ₹100-200 | <strong>🌟 Popular:</strong> Café Coffee Day, Starbucks</p>
                             <p>Numerous cafés perfect for study sessions, project discussions, and casual meetups with friends.</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🏸 Sports Complexes</h4>
-                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🏊‍♂️ Activities:</strong> Swimming, badminton, gym<br/>
-                            <strong>💰 Price:</strong> ₹100-300/hour | <strong>📍 Locations:</strong> Gachibowli, Kondapur</p>
+                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🏊‍♂️ Activities:</strong> Swimming, badminton, gym<br />
+                              <strong>💰 Price:</strong> ₹100-300/hour | <strong>📍 Locations:</strong> Gachibowli, Kondapur</p>
                             <p>Modern sports facilities for fitness enthusiasts and recreational sports activities.</p>
                           </div>
                         </div>
 
                         <div className="section">
                           <h3 className="section-title">🚗 Day Trip Destinations</h3>
-                          
+
                           <div className="subsection">
                             <h4>🏔️ Ananthagiri Hills (90 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🌡️ Climate:</strong> Cool & pleasant<br/>
-                            <strong>🏕️ Activities:</strong> Trekking, camping | <strong>📷 Best for:</strong> Nature photography</p>
+                            <p><strong>⭐ Rating:</strong> 4.5/5 | <strong>🌡️ Climate:</strong> Cool & pleasant<br />
+                              <strong>🏕️ Activities:</strong> Trekking, camping | <strong>📷 Best for:</strong> Nature photography</p>
                             <p>Perfect weekend getaway for nature lovers with scenic drives, trekking trails, and coffee plantations.</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🌊 Nagarjuna Sagar (3 hours from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🏛️ Attractions:</strong> Dam, Buddhist sites<br/>
-                            <strong>🚢 Activities:</strong> Boat rides | <strong>🕰️ Best for:</strong> Full day trip</p>
+                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🏛️ Attractions:</strong> Dam, Buddhist sites<br />
+                              <strong>🚢 Activities:</strong> Boat rides | <strong>🕰️ Best for:</strong> Full day trip</p>
                             <p>Massive dam and reservoir with historical Buddhist sites. Great for weekend trips with friends.</p>
                           </div>
 
                           <div className="subsection">
                             <h4>🦁 Nehru Zoological Park (40 min from campus)</h4>
-                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🎫 Entry:</strong> ₹50<br/>
-                            <strong>⏰ Timings:</strong> 8:30 AM - 5:00 PM | <strong>🚫 Closed:</strong> Mondays</p>
+                            <p><strong>⭐ Rating:</strong> 4/5 | <strong>🎫 Entry:</strong> ₹50<br />
+                              <strong>⏰ Timings:</strong> 8:30 AM - 5:00 PM | <strong>🚫 Closed:</strong> Mondays</p>
                             <p>One of India's largest zoos with diverse wildlife including tigers, lions, and elephants. Perfect family destination.</p>
                           </div>
                         </div>
@@ -1102,7 +1115,7 @@ function Kit() {
                     </div>
                     <div className="documents-content">
                       <div className="section">
-                        <div className="section-desc" style={{textAlign: 'center', fontSize: '1rem', marginBottom: '2rem'}}>
+                        <div className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
                           <strong>📖 An Informal Introduction to IIIT-H - Everything you need to know about life at IIIT-H</strong>
                         </div>
 
@@ -1110,13 +1123,13 @@ function Kit() {
                           <h3 className="section-title">🎓 About IIIT-H</h3>
                           <div className="subsection">
                             <p>IIIT-H is a university that provides the quintessential college life. The curriculum not only provides core technical courses required for career-oriented endeavors but also focuses on molding the student as a whole by providing life-skills as part of their non-technical courses.</p>
-                            
+
                             <p>IIIT-H is known for its <strong>groundbreaking research</strong>, with a strong emphasis on research-oriented knowledge building. The research-oriented approach helps solve real-life problems and allows students to work on cutting-edge technology.</p>
-                            
+
                             <div className="subsection">
                               <h4>💼 Director's Vision</h4>
                               <p><em>As the director P.J. Narayan likes to say:</em></p>
-                              <p style={{fontStyle: 'italic', fontSize: '1.1rem', color: '#10b981', textAlign: 'center', margin: '1rem 0', padding: '1rem', border: '2px solid #10b981', borderRadius: '8px'}}>
+                              <p style={{ fontStyle: 'italic', fontSize: '1.1rem', color: '#10b981', textAlign: 'center', margin: '1rem 0', padding: '1rem', border: '2px solid #10b981', borderRadius: '8px' }}>
                                 "IIIT-H prepares not for your first job, but for your last job."
                               </p>
                             </div>
@@ -1180,11 +1193,11 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">🏠 Hostels & Campus Life</h3>
-                          
+
                           <div className="subsection">
                             <h4>🏢 Hostels</h4>
                             <p>We have <strong>5 hostels</strong> with excellent facilities:</p>
-                            
+
                             <div className="subsection">
                               <h4>👦 Boys' Hostels</h4>
                               <ul className="item-list">
@@ -1242,7 +1255,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">🍽️ Food & Dining</h3>
-                          
+
                           <div className="subsection">
                             <h4>🏪 4 Messes with Variety</h4>
                             <ul className="item-list">
@@ -1269,7 +1282,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">🎭 Clubs & Activities</h3>
-                          
+
                           <div className="subsection">
                             <h4>🌟 Diverse Clubs</h4>
                             <p>All clubs hold regular meetings and activities throughout the year:</p>
@@ -1300,7 +1313,7 @@ function Kit() {
                           <div className="subsection">
                             <h4>⚽ Sports</h4>
                             <p>Year-round sports activities include:</p>
-                            
+
                             <div className="subsection">
                               <h4>🏆 Inter-house Competitions</h4>
                               <ul className="item-list">
@@ -1328,7 +1341,7 @@ function Kit() {
                           <h3 className="section-title">📰 Ping! Magazine</h3>
                           <div className="subsection">
                             <p><strong>Ping!</strong> is the college magazine where creativity meets journalism:</p>
-                            
+
                             <div className="subsection">
                               <h4>✍️ What You Can Submit</h4>
                               <ul className="item-list">
@@ -1357,7 +1370,7 @@ function Kit() {
                           <h3 className="section-title">🌤️ Climate</h3>
                           <div className="subsection">
                             <p>Hyderabad's climate is <strong>pleasant for most of the year</strong>, making it perfect for year-round activities:</p>
-                            
+
                             <div className="subsection">
                               <h4>❄️ Winter (December - February)</h4>
                               <ul className="item-list">
@@ -1418,6 +1431,44 @@ function Kit() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Navigate Buttons */}
+
+      <motion.div
+                className="explore-kit-section"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+              >
+                <motion.button
+                  className="explore-button"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 1, delay: 1.5 }}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={scrollToLanding}
+                >
+                  <span>Welcome To IIIT-H</span>
+                  <svg className="button-arrow" viewBox="0 0 24 24" fill="none">
+                    <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>    
+                  </motion.button>
+                <motion.button
+                  className="explore-button"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 1, delay: 1.5 }}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={scrollToStudentKit}
+                >
+                  <span>Life @ IIIT-H</span>
+                  <svg className="button-arrow" viewBox="0 0 24 24" fill="none">
+                    <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>    
+                  </motion.button>
+              </motion.div>
 
       {/* Footer */}
       <motion.footer

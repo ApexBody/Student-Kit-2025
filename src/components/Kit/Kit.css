@@ -1003,3 +1003,19 @@ body {
   opacity: 0.5;
   z-index: -1;
 }
+
+.navigate-buttons{
+  margin: auto;
+  display: flex;
+  
+}
+.welcome-button {
+  align-items: right;
+  align-self: center;
+}
+.welcome-to-iiith-button {
+  margin: auto;
+  /* display: flex; */
+  align-items: left;
+
+}

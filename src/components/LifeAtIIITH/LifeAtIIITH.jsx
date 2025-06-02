@@ -64,6 +64,12 @@ const LifeAtIIITH = () => {
     if (kitSection) {
       kitSection.scrollIntoView({ behavior: 'smooth' });
     }
+  };  
+  const scrollToLanding = () => {
+    const landingSection = document.querySelector('.landing-section') ;
+    if (landingSection) {
+      landingSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -145,6 +151,20 @@ const LifeAtIIITH = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
+          <motion.button
+            className="explore-button"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 1.5 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={scrollToLanding}
+          >
+            <span>Welcome To IIIT-H</span>
+            <svg className="button-arrow" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>    
+            </motion.button>
           <motion.button
             className="explore-button"
             initial={{ opacity: 0, y: 20 }}

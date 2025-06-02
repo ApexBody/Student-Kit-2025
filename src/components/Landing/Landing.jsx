@@ -28,6 +28,12 @@ const Landing = () => {
       nextSection.scrollIntoView({ behavior: 'smooth' })
     }
   }
+  const scrollToStudentKit = () => {
+    const kitSection = document.querySelector('.life-at-iiith').nextElementSibling;
+    if (kitSection) {
+      kitSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };  
   return (
     <section className="landing-section">
       {/* Background Image */}
@@ -97,10 +103,25 @@ const Landing = () => {
             whileTap={{ scale: 0.95 }}
             onClick={scrollToNextSection}
           >
-            <span>Explore More</span>
+            <span>Life @ IIIT-H</span>
             <svg className="button-arrow" viewBox="0 0 24 24" fill="none">
               <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>          </motion.button>
+            </svg>          
+            </motion.button>      
+            <motion.button
+            className="explore-button"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 1.5 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={scrollToStudentKit}
+          >
+            <span>Student Kit</span>
+            <svg className="button-arrow" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>          
+            </motion.button>
         </motion.div>
       </div>
     </section>
