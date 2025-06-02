@@ -117,7 +117,7 @@ function Kit() {
       >
         <div className="header-content">
           <motion.h1
-            className="title"
+            className="student-kit-title"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -405,7 +405,7 @@ function Kit() {
                     <div className="documents-content">
                       <div className="section">                     
                           <h4 className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
-                          <strong>🎓 Hear from our alumni and current students about their journey at IIIT-H</strong>
+                          {/* <strong>🎓 Hear from our alumni and current students about their journey at IIIT-H</strong> */}
                         </h4>
 
                         <div className="section">
@@ -536,7 +536,7 @@ function Kit() {
                     </div>
                     <div className="documents-content">
                       <div className="section">                        <h4 className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
-                          <strong>🏨 Accommodation options for visitors and families near the campus</strong>
+                          {/* <strong>🏨 Accommodation options for visitors and families near the campus</strong> */}
                         </h4>
 
                         <div className="section">
@@ -690,7 +690,7 @@ function Kit() {
                     </div>
                     <div className="documents-content">
                       <div className="section">                        <h4 className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
-                          <strong>🗺️ Complete travel guide to reach IIIT Hyderabad from anywhere in the city</strong>
+                          {/* <strong>🗺️ Complete travel guide to reach IIIT Hyderabad from anywhere in the city</strong> */}
                         </h4>
 
                         <div className="section">
@@ -911,7 +911,7 @@ function Kit() {
                     </div>
                     <div className="documents-content">
                       <div className="section">                        <h4 className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
-                          <strong>🏛️ Discover the vibrant city of Hyderabad - a perfect blend of history, technology, and culture!</strong>
+                          {/* <strong>🏛️ Discover the vibrant city of Hyderabad - a perfect blend of history, technology, and culture!</strong> */}
                         </h4>
 
                         <div className="section">
@@ -1113,7 +1113,7 @@ function Kit() {
                     <div className="documents-content">
                       <div className="section">
                         <div className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
-                          <strong>📖 An Informal Introduction to IIIT-H - Everything you need to know about life at IIIT-H</strong>
+                          {/* <strong>📖 An Informal Introduction to IIIT-H - Everything you need to know about life at IIIT-H</strong> */}
                         </div>
 
                         <div className="section">
