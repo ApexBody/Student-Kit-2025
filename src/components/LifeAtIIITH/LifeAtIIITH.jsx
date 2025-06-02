@@ -95,7 +95,7 @@ const LifeAtIIITH = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              {sections[section].icon}
+              {/* {sections[section].icon} */}
               <span>{sections[section].title}</span>
             </motion.button>
           ))}

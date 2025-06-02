@@ -219,7 +219,7 @@ function Kit() {
                       <div className="code-content">
                         <div className="section">
                           <h3 className="section-title">📋 Documents Required for Registration</h3>
-                          <p className="section-desc">Submit original documents + one set of Xerox copies:</p>
+                          <h4 className="section-desc">Submit original documents + one set of Xerox copies:</h4>
                           <ul className="doc-list">
                             <li>📄 10th Marksheet/Certificate/Date of Birth certificate</li>
                             <li>📄 11th and 12th Marksheet/Certificates</li>
