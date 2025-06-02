@@ -403,14 +403,14 @@ function Kit() {
                       <span className="code-title">alumni_echoes.md</span>
                     </div>
                     <div className="documents-content">
-                      <div className="section">
-                        <div className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
+                      <div className="section">                     
+                          <h4 className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
                           <strong>🎓 Hear from our alumni and current students about their journey at IIIT-H</strong>
-                        </div>
+                        </h4>
 
                         <div className="section">
                           <h3 className="section-title">💼 Mayank Modi</h3>
-                          <p className="section-desc"><em>B.Tech in Computer Science and M.S. by Research in Computational Natural Sciences, Batch of 2015</em></p>
+                          <h4 className="section-desc"><em>B.Tech in Computer Science and M.S. by Research in Computational Natural Sciences, Batch of 2015</em></h4>
                           <div className="subsection">
                             <p>Taking up a dual degree course with an unheard of MS speciality was perhaps the moment where I decided to cut off from the herd. CND at IIIT is a unique attempt to bridge the amalgamation of Applied Sciences and Computer Science. Aimed at making engineers well versed in the field of biomolecules, theoretical physics and various other domains, CND is a great place for a curious mind.</p>
                             <p>IIIT has been a resourceful cradle for development on a lot of fronts. With a small community I have been able to be a part of various clubs apart from having started one of my own. My experience with IIIT has been laced with a lot of opportunities with a great location in the heart of the city. While there have been troughs through this overwhelming journey and the course has demanded some rigorous hours to be put in, I have definitely been blessed with a broader vision for things.</p>
@@ -421,7 +421,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">💼 Lalitha Kameswari</h3>
-                          <p className="section-desc"><em>B.Tech in Computer Science and MS by Research in Computational Linguistics, Batch of 2017</em></p>
+                          <h4 className="section-desc"><em>B.Tech in Computer Science and MS by Research in Computational Linguistics, Batch of 2017</em></h4>
                           <div className="subsection">
                             <p>Hey buddy! Congratulations on getting an admission into this college after all your hardwork and those painful exams. Entering from school to college is one of the biggest transitions we all make. Exactly one year ago, when I was looking at the same website, I was extremely curious and puzzled about what college had in store for me.</p>
                             <p>On the day of registration, I walked in with a myriad of questions in mind. But within a week, I stopped feeling lonely and had made so many friends on campus. This place where you're going to stay for the next couple of years has a charm of its own. So, for those of you who will be staying away from home for the first time, you can trust me when I say you'll find a new home here with a family of amazing peers and seniors.</p>
@@ -431,7 +431,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">💼 Pranav Bhasin</h3>
-                          <p className="section-desc"><em>B. Tech in Computer Science and Engineering, Batch of 2015</em></p>
+                          <h4 className="section-desc"><em>B. Tech in Computer Science and Engineering, Batch of 2015</em></h4>
                           <div className="subsection">
                             <p>Welcome Comrades :D I understand many of you might be really skeptical about the sudden jump in life from being a school kid to an independent college student. I was at the same place as you a couple of years ago. But trust me when i say, this is the best thing that can happen to you in your life.</p>
                             <p>IIIT-H provides you with a platform to achieve everything that you may have aspired for or looked forward to in a college life. Your life is gonna be a total roller coaster ride with many ups and downs but coming out of it successful with a happy face and writing your own odyssey is what IIIT-H teaches you.</p>
@@ -442,7 +442,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">💼 Arihant Jain</h3>
-                          <p className="section-desc"><em>B.Tech and M.S by Research in Electronics and Communications Engineering, Batch of 2014</em></p>
+                          <h4 className="section-desc"><em>B.Tech and M.S by Research in Electronics and Communications Engineering, Batch of 2014</em></h4>
                           <div className="subsection">
                             <p>Welcome to IIIT-H! Amidst difficult times of counselling, I chose IIIT-H because of its emphasis on research. Not only has IIIT-H offered me opportunities that I had never thought of, but also it has moulded me into a responsible and confident person that I am now.</p>
                             <p>First few months were like an adventure, where you make a ton of friends with your batchmates and seniors, try new and different things you never dreamt of, follow your instincts, find your passions and make your own everlasting memories. From infinite assignments to never ending exams, from sleeping during lectures to working all night for Felicity, IIIT-H has taught me to learn from everything.</p>
@@ -452,7 +452,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">💼 Rajas Vanjape</h3>
-                          <p className="section-desc"><em>B.Tech in Computer Science and MS by Research in Computer Science, Batch of 2014</em></p>
+                          <h4 className="section-desc"><em>B.Tech in Computer Science and MS by Research in Computer Science, Batch of 2014</em></h4>
                           <div className="subsection">
                             <p>I joined IIIT Hyderabad through Olympiad mode. I chose IIIT Hyderabad over an equal, if not better option, as it offered both theoretical and practical Computer Science courses and better placement opportunities. After 4 years, I don't regret my decision.</p>
                             <p>Due to its excellent course structure, students are introduced to different aspects of computer science in first two years and get to work on an interesting research problem of their choice in later years. This enables them to work on challenging engineering problems in their career. The strong foundation provided by the course structure helped me bag an internship at Facebook London.</p>
@@ -462,7 +462,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">💼 Riya Pal</h3>
-                          <p className="section-desc"><em>B.Tech in Computer Science and MS by Research in Computational Linguistics, Batch of 2014</em></p>
+                          <h4 className="section-desc"><em>B.Tech in Computer Science and MS by Research in Computational Linguistics, Batch of 2014</em></h4>
                           <div className="subsection">
                             <p>When I walked into this college, I was a bundle of emotions. Scared, confused and excited, all at the same time. Soon, I met my batchmates, seniors, and it has been a rollercoaster ride ever since.</p>
                             <p>After getting over the initial shock of how different college is from school, it amazed me to see the diverse and awesome set of people I found here. Coders, dancers, developers, musicians, bookworms, athletes, just about everybody has something great to offer.</p>
@@ -472,7 +472,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">💼 Kanay Gupta</h3>
-                          <p className="section-desc"><em>B.Tech in Computer Science and Engineering, Batch of 2016</em></p>
+                          <h4 className="section-desc"><em>B.Tech in Computer Science and Engineering, Batch of 2016</em></h4>
                           <div className="subsection">
                             <p>Welcome to IIIT-H! After countless gruesome days of preparing for JEE, SAT etc., you are finally about to enter college. After my 12th class, I had to take a decision between joining the prestigious IIT's and IIIT-H. Many people advised me to choose the former but I chose the latter because of my interest in computer science, and have never regretted the decision.</p>
                             <p>IIIT is one place which provides one with a lot of wonderful opportunities. You can be a great coder, or the artist you always wanted to become, or the dancer whose videos you watched on Youtube. Yes, you can do all of this, but it is you who would have to break out of the shell of shyness and take the step forward.</p>
@@ -482,7 +482,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">💼 Ameya Prabhu</h3>
-                          <p className="section-desc"><em>BTech and MS by Research in Computer Science and Engineering, Batch of 2014</em></p>
+                          <h4 className="section-desc"><em>BTech and MS by Research in Computer Science and Engineering, Batch of 2014</em></h4>
                           <div className="subsection">
                             <p>Hello folks! You've come to start a new journey! Guess what- You'll probably love IIIT-H! To give you a peek into what waits ahead - You are free from the shackles of Physics, Chemistry and Biology. Dive into Comp. Sci.! Follow your passions!</p>
                             <p>I was really passionate about research when I joined in. In IIIT-H, we get a lot of freedom. Yes! Explore your passions. I used to sit in random interesting lectures whenever I wanted to! I got to learn, I got to explore the R and D Labs! I could do what I've been waiting for, finally!</p>
@@ -492,7 +492,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">💼 Arya Mihir Singh</h3>
-                          <p className="section-desc"><em>B.Tech in Computer Science and Engineering, Batch of 2014</em></p>
+                          <h4 className="section-desc"><em>B.Tech in Computer Science and Engineering, Batch of 2014</em></h4>
                           <div className="subsection">
                             <p>Congratulations on making it to IIIT! You're entering a brand new phase of life. When I joined IIIT, I was both excited and nervous. Excited since I had heard so much about the amazing academics of IIIT (the so called "coding culture"). Nervous because, I had heard very little about the cultural scene.</p>
                             <p>Sadly, there was no "Music Club" on campus when I joined (2014). In my second year I took the responsibility to bring an active music culture to college. And guess what! When I graduated, music club was one of the most active clubs of IIIT.</p>
@@ -502,7 +502,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">💼 Vaishnavi Pamulapati</h3>
-                          <p className="section-desc"><em>B.Tech in Computer Science and MS by Research in Computational Linguistics, Batch of 2016</em></p>
+                          <h4 className="section-desc"><em>B.Tech in Computer Science and MS by Research in Computational Linguistics, Batch of 2016</em></h4>
                           <div className="subsection">
                             <p>Passed the meticulous security guards, walked through the intermittently lit hostel corridor, and caught a glimpse of ever so many parents and students on my floor. I remember grudgingly going to the Orientation Day and listening to so many professors speak on the on goings of our college IIIT-H.</p>
                             <p>Now let's go two months down the lane. The guards knew me by name, and hostel felt like home; although I went home almost every weekend( mum missed me xD) I couldn't wait to get back to college. In two months I made the best of friends and college became my second home!</p>
@@ -512,7 +512,7 @@ function Kit() {
 
                         <div className="section">
                           <h3 className="section-title">💼 Vivek Kaushal</h3>
-                          <p className="section-desc"><em>B.Tech and MS by Research in Computer Science and Engineering, Batch of 2016</em></p>
+                          <h4 className="section-desc"><em>B.Tech and MS by Research in Computer Science and Engineering, Batch of 2016</em></h4>
                           <div className="subsection">
                             <p>Welcome to IIIT! It still feels unreal that an year has passed since my first day here, I remember all of it, the nerves, and the awkward small talk with people who were strangers back then, and are comrades now. The first few days are an adventure, finding new friends in your batchmates, your seniors, this is the time to follow your passion, let go of your fears, come out of your shell, and join clubs that interest you!</p>
                             <p>This is it people, the most creative period of your life has just started. Pursue your talents, go for your dreams, aim for the stars, the world is your oyster today. It's your college life, you'll love it, you'll hate it, but at the end of it, when you exit that campus gate for the very last time, you'll be prepared to take on whatever the world throws at you.</p>
@@ -535,10 +535,9 @@ function Kit() {
                       <span className="code-title">hotels_near_iiith.md</span>
                     </div>
                     <div className="documents-content">
-                      <div className="section">
-                        <div className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
+                      <div className="section">                        <h4 className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
                           <strong>🏨 Accommodation options for visitors and families near the campus</strong>
-                        </div>
+                        </h4>
 
                         <div className="section">
                           <h3 className="section-title">💰 Budget Hotels (₹900 - ₹2000)</h3>
@@ -690,10 +689,9 @@ function Kit() {
                       <span className="code-title">how_to_reach_iiith.md</span>
                     </div>
                     <div className="documents-content">
-                      <div className="section">
-                        <div className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
+                      <div className="section">                        <h4 className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
                           <strong>🗺️ Complete travel guide to reach IIIT Hyderabad from anywhere in the city</strong>
-                        </div>
+                        </h4>
 
                         <div className="section">
                           <h3 className="section-title">🗺️ Key Landmarks Near IIIT-H</h3>
@@ -912,10 +910,9 @@ function Kit() {
                       <span className="code-title">places_to_visit_hyderabad.md</span>
                     </div>
                     <div className="documents-content">
-                      <div className="section">
-                        <div className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
+                      <div className="section">                        <h4 className="section-desc" style={{ textAlign: 'center', fontSize: '1rem', marginBottom: '2rem' }}>
                           <strong>🏛️ Discover the vibrant city of Hyderabad - a perfect blend of history, technology, and culture!</strong>
-                        </div>
+                        </h4>
 
                         <div className="section">
                           <h3 className="section-title">🏰 Historical Landmarks</h3>
