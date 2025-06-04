@@ -12,6 +12,7 @@ import {
   Moon,
   ExternalLink,
   Code,
+  Laptop
 } from 'lucide-react'
 import './Kit.css'
 
@@ -105,6 +106,14 @@ function Kit() {
       color: 'from-violet-500 to-purple-600',
       description: 'Unofficial guide to campus life and culture',
       techHint: '$ cat README.md'
+    },
+    {
+      id: 'laptop',
+      title: 'Laptop Recommendations',
+      icon: Laptop,
+      color: 'from-emerald-500 to-green-600',
+      description: 'Essential laptop specifications for incoming students',
+      techHint: '$ cat laptop_specs.txt'
     }
   ]
 
@@ -336,24 +345,24 @@ function Kit() {
                         <p>We know that you will have many questions, concerns or problems. The institute has constituted a mentoring system, which enables student mentors to assist the freshmen in overcoming any hurdles that they might be experiencing. We have an Apex body of students who, in conjunction with their Faculty guides, will be coordinating with your direct student mentors. Your mentors and us, the Apex Body, are always available for you to contact with any issues throughout the year. If there is anything we can help you or your parents with, it would be our pleasure to do so. Our Email IDs are given below to get in touch with us at any point of time.</p>
 
                         <p><br /><strong>Members:</strong></p>
-                        <p><a href="mailto:mohammed.ihsan@students.iiit.ac.in">Mohammed Ihsan Ali</a></p>
-                        <p><a href="mailto:soumil.gupta@students.iiit.ac.in">Soumil Gupta</a></p>
-                        <p><a href="mailto:vaishnavi.shivkumar@students.iiit.ac.in">Vaishnavi Shivkumar</a></p>
-                        <p><a href="mailto:sujal.deoda@research.iiit.ac.in">Sujal Deoda</a></p>
-                        <p><a href="mailto:rishabh.patnaik@students.iiit.ac.in">Rishabh Patnaik</a></p>
-                        <p><a href="mailto:bipasha.garg@research.iiit.ac.in">Bipasha Garg</a></p>
-                        <p><a href="mailto:karthikeya.busam@students.iiit.ac.in">Karthikeya Busam</a></p>
-                        <p><a href="mailto:pratishtha.saxena@research.iiit.ac.in">Pratishtha Saxena</a></p>
-                        <p><a href="mailto:tanish.gupta@research.iiit.ac.in">Tanish Gupta</a></p>
-                        <p><a href="mailto:dhruv.bansal@students.iiit.ac.in">Dhruv Bansal</a></p>
-                        <p><a href="mailto:harshita.kumari@students.iiit.ac.in">Harshita Kumari</a></p>
-                        <p><a href="mailto:ishaan.romil@research.iiit.ac.in">Ishaan Romil</a></p>
-                        <p><a href="mailto:kiran.r@research.iiit.ac.in">Kiran R</a></p>
-                        <p><a href="mailto:krishna.goel@research.iiit.ac.in">Krishna Goel</a></p>
-                        <p><a href="mailto:krrish.goenka@research.iiit.ac.in">Krrish Goenka</a></p>
-                        <p><a href="mailto:manas.agrawal@research.iiit.ac.in">Manas Agrawal</a></p>
-                        <p><a href="mailto:nilanjana.de@research.iiit.ac.in">Nilanjana De</a></p>
-                        <p><a href="mailto:sukasi.manidhar@students.iiit.ac.in">Sukasi Manidhar</a></p>
+                        <p><a href="mailto:mohammed.ihsan@students.iiit.ac.in">Mohammed Ihsan Ali - mohammed.ihsan@students.iiit.ac.in</a></p>
+                        <p><a href="mailto:soumil.gupta@students.iiit.ac.in">Soumil Gupta - soumil.gupta@students.iiit.ac.in</a></p>
+                        <p><a href="mailto:vaishnavi.shivkumar@students.iiit.ac.in">Vaishnavi Shivkumar - vaishnavi.shivkumar@students.iiit.ac.in</a></p>
+                        <p><a href="mailto:sujal.deoda@research.iiit.ac.in">Sujal Deoda - sujal.deoda@research.iiit.ac.in</a></p>
+                        <p><a href="mailto:rishabh.patnaik@students.iiit.ac.in">Rishabh Patnaik - rishabh.patnaik@students.iiit.ac.in</a></p>
+                        <p><a href="mailto:bipasha.garg@research.iiit.ac.in">Bipasha Garg - bipasha.garg@research.iiit.ac.in</a></p>
+                        <p><a href="mailto:karthikeya.busam@students.iiit.ac.in">Karthikeya Busam - karthikeya.busam@students.iiit.ac.in</a></p>
+                        <p><a href="mailto:pratishtha.saxena@research.iiit.ac.in">Pratishtha Saxena - pratishtha.saxena@research.iiit.ac.in</a></p>
+                        <p><a href="mailto:tanish.gupta@research.iiit.ac.in">Tanish Gupta - tanish.gupta@research.iiit.ac.in</a></p>
+                        <p><a href="mailto:dhruv.bansal@students.iiit.ac.in">Dhruv Bansal - dhruv.bansal@students.iiit.ac.in</a></p>
+                        <p><a href="mailto:harshita.kumari@students.iiit.ac.in">Harshita Kumari - harshita.kumari@students.iiit.ac.in</a></p>
+                        <p><a href="mailto:ishaan.romil@research.iiit.ac.in">Ishaan Romil - ishaan.romil@research.iiit.ac.in</a></p>
+                        <p><a href="mailto:kiran.r@research.iiit.ac.in">Kiran R - kiran.r@research.iiit.ac.in</a></p>
+                        <p><a href="mailto:krishna.goel@research.iiit.ac.in">Krishna Goel - krishna.goel@research.iiit.ac.in</a></p>
+                        <p><a href="mailto:krrish.goenka@research.iiit.ac.in">Krrish Goenka - krrish.goenka@research.iiit.ac.in</a></p>
+                        <p><a href="mailto:manas.agrawal@research.iiit.ac.in">Manas Agrawal - manas.agrawal@research.iiit.ac.in</a></p>
+                        <p><a href="mailto:nilanjana.de@research.iiit.ac.in">Nilanjana De - nilanjana.de@research.iiit.ac.in</a></p>
+                        <p><a href="mailto:sukasi.manidhar@students.iiit.ac.in">Sukasi Manidhar - sukasi.manidhar@students.iiit.ac.in</a></p>
 
                         
                         <p><br /><strong>Advisors:</strong></p>
@@ -362,7 +371,7 @@ function Kit() {
 
                         <p>Welcome to college life! You're gonna love it! Don’t hold back! Make your own memories!</p>
 
-                        <p>— The Apex Body '24</p>
+                        <p>— The Apex Body '25</p>
 
                         </div>
                       </div>

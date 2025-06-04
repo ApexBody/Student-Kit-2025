@@ -333,7 +333,7 @@
 }
 
 .modal-header h2 {
-  font-size: 1.5rem; /* Reduced from 6rem */
+  font-size: 2rem; /* Increased from 1.5rem */
   font-weight: 800;
   color: #ffffff;
   text-align: center;
@@ -358,6 +358,10 @@
   scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
 }
 
+.modal-body p {
+  font-size: 1.2rem; /* Increased from 1rem */
+}
+
 .modal-body::-webkit-scrollbar {
   width: 8px;
 }
@@ -377,12 +381,6 @@
 .modal-body::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.2) 100%);
   background-clip: content-box;
-}
-
-.modal-body p {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.9);
 }
 
 .modal-close {
@@ -465,7 +463,7 @@
 }
 
 .doc-list li{
-  font-size: 0.75rem; /* Reduced from 3rem */
+  font-size: 1.1rem; /* Increased from 0.75rem */
   color: #a09f9b;
   padding: 0.5rem 0;
   padding-left: 1.5rem;
@@ -474,28 +472,28 @@
 }
 
 h4 {
-  font-size: 0.75rem; /* Reduced from 3rem */
+  font-size: 1.2rem; /* Increased from 0.75rem */
   color: #cbd5e1;
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
 
 .subsection h4 {
-  font-size: 0.725rem; /* Reduced from 2.9rem */
+  font-size: 1.3rem; /* Increased from 0.725rem */
   color: #f0f9ff;
   margin-bottom: 1rem;
   text-align: left;
 }
 
 .subsection p{
-  font-size: 0.75rem; /* Reduced from 3rem */
+  font-size: 1.1rem; /* Increased from 0.75rem */
   color: #aeada7;
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
 
 .item-list li {
-  font-size: 0.75rem; /* Reduced from 3rem */
+  font-size: 1.1rem; /* Increased from 0.75rem */
   color: #a09f9b;
   padding: 0.5rem 0rem;
   margin-left: 1.5rem; /* Reduced from 6rem */
@@ -503,9 +501,9 @@ h4 {
 }
 
 .code-comment {
+  font-size: 1rem; /* Increased from 0.75rem */
   color: #9ca3af;
   font-style: italic;
-  font-size: 0.75rem; /* Reduced from 3rem */
 }
 
 .section{
