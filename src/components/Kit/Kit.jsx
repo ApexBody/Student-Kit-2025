@@ -347,7 +347,6 @@ function Kit() {
                         <p><a href="mailto:soumil.gupta@students.iiit.ac.in">Soumil Gupta - soumil.gupta@students.iiit.ac.in</a></p>
                         <p><a href="mailto:vaishnavi.shivkumar@students.iiit.ac.in">Vaishnavi Shivkumar - vaishnavi.shivkumar@students.iiit.ac.in</a></p>
                         <p><a href="mailto:sujal.deoda@research.iiit.ac.in">Sujal Deoda - sujal.deoda@research.iiit.ac.in</a></p>
-                        <p><a href="mailto:rishabh.patnaik@students.iiit.ac.in">Rishabh Patnaik - rishabh.patnaik@students.iiit.ac.in</a></p>
                         <p><a href="mailto:bipasha.garg@research.iiit.ac.in">Bipasha Garg - bipasha.garg@research.iiit.ac.in</a></p>
                         <p><a href="mailto:karthikeya.busam@students.iiit.ac.in">Karthikeya Busam - karthikeya.busam@students.iiit.ac.in</a></p>
                         <p><a href="mailto:pratishtha.saxena@research.iiit.ac.in">Pratishtha Saxena - pratishtha.saxena@research.iiit.ac.in</a></p>
@@ -1467,7 +1466,7 @@ function Kit() {
                               <li><strong>🌌 Aakash</strong> (Sky) - Blue house</li>
                               <li><strong>🔥 Agni</strong> (Fire) - Red house</li>
                               <li><strong>🌍 Prithvi</strong> (Earth) - Green house</li>
-                              <li><strong>💨 Vayu</strong> (Air) - Yellow house</li>
+                              <li><strong>💨 Vayu</strong> (Air) - Grey House</li>
                             </ul>
                             <p>Competition timeline: Starting with <strong>Fresher's Night</strong> and culminating in <strong>Cultural Night</strong></p>
                           </div>
@@ -1552,32 +1551,53 @@ function Kit() {
                     </div>
                     <div className="documents-content">
                       <div className="section">
-                        <h3 className="section-title">🌟 Laptop recs</h3>
+                        <h3 className="section-title">🌟 Laptop Recomendation</h3>
                         <div className="subsection">
-                        <p>Dear Freshers,</p>
+                        <p>Welcome to IIIT Hyderabad! This guide will help you choose the right laptop for your college needs. Choosing the right laptop is crucial for your academic success. This guide covers essential specifications, recommended options, and key considerations.</p>
 
-                        <p>Dear Freshers,</p>
+                        <p>Several points need your attention before purchasing a laptop for your time at IIIT Hyderabad:</p>
 
-                        <p>Congratulations and a very warm welcome to the International Institute of Information Technology, Hyderabad (IIIT-H). You are about to begin an exciting new chapter in your life, filled with opportunities, challenges, and memorable experiences.</p>
+                        <p>• Battery Life: Look for a laptop with good battery life, as you may need it during lectures when charging ports aren't readily available.</p>
+                        <p>• GPU: A dedicated GPU is not required for general college use. Integrated graphics work fine for development purposes, though a GPU may help in web or graphics-related tasks.</p>
+                        <p>• Portability: A lightweight and slim laptop is ideal for campus use unless you specifically need a gaming machine.</p>
+                        <p>• Display: A 14-inch or 15.6-inch display with a good IPS or OLED panel is recommended.</p>
+                        <p>• Ports: Try to have multiple USB ports, an HDMI port, and an Ethernet port or compatible adapter, though many of these can be added later externally.</p>
+                        <p>• Wifi Drivers: Avoid laptops with Mediatek wifi cards if you plan to use Linux. However, external dongles can serve as a workaround.</p>
+                        <p>• Price: There’s no need to go beyond ₹1,00,000. Good laptops are available well within this range. Avoid going below ₹45,000 to ensure basic usability.</p>
 
-                        <p>At IIIT-H, we place equal importance on rigorous academics and holistic personal development. The Student Life Committee (SLC) is dedicated to enriching your student journey by overseeing all activities related to campus life, including clubs, events, and cultural programs.</p>
+                        <p><br/>Minimum Recommended Specifications:</p>
+                        <p>• Processor: 12th Gen Intel Core i3 or AMD Ryzen 3</p>
+                        <p>• RAM: 8GB (preferably upgradable)</p>
+                        <p>• Storage: 256GB SSD</p>
+                        <p>• Display: HD minimum</p>
+                        <p>• OS: Windows 10/11, macOS, or Linux</p>
 
-                        <p>This student kit has been thoughtfully compiled to help you settle in with ease. It includes:</p>
-                        <ul>
-                        <p>• Welcome message from the Director</p>
-                        <p>• Message from the student mentor body with insights into student life at IIIT-H</p>
-                        <p>• A checklist of documents and essentials to bring for physical registration</p>
-                        <p>• Guidelines on how to reach IIIT-H</p>
-                        <p>• Procedures and schedule of orientation activities for the first two days</p>
-                        <p>• A list of hotels nearby for parents’ accommodation during this period</p>
+                        <p><br/>Recommended Specifications for Smoother Performance:</p>
+                        <p>• Processor: Intel Core i5 / AMD Ryzen 5 or better</p>
+                        <p>• RAM: 16GB</p>
+                        <p>• Storage: 512GB SSD</p>
+                        <p>• OS: Windows 10/11, macOS, or Linux (all supported)</p>
 
-                        </ul>
+                        <p><br/>Laptop Price Ranges and Recommendations:</p>
 
-                        <p>We hope this information helps you and your family during your transition to campus life. Should you need any assistance, we are always here to support you.</p>
+                        <p>• ₹40,000 – ₹60,000: Suitable for basic needs like coding, assignments, and lectures. May struggle with heavy IDEs or virtual machines.</p>
+                        <p>  Examples links(click on these) : 
+                             <a href= "https://www.amazon.in/Lenovo-IdeaPad-Warranty-Platinum-81X800LGIN/dp/B0D872NJSM" target="_blank"> Link1</a> ,  <a href="https://www.amazon.in/5-5625U-Premium-Windows-AL15-41-Display/dp/B0DG2GCTD7" target="_blank">Link 2</a>
+                            
+                        </p>
 
-                        <p>Wishing you all the best as you begin your journey at IIIT-H!</p>
+                        <p>• ₹60,000 – ₹80,000: Offers a good balance of performance and price. Suitable for all academic and development tasks.</p>
+                        <p>  Examples links(click on these) : 
+                            <a href="https://www.amazon.in/ASUS-Vivobook-Backlit-Keyboard-X1607CA-MB139WS/dp/B0DT74FF9P" target="_blank"> Link</a>
+                        </p>
 
-                        <p>Tapan Kumar Sau<br />Chair, Student Life Committee<br />IIIT Hyderabad</p>
+                        <p>• ₹80,000 – ₹1,00,000: Excellent build and high-end performance. Ideal for students working on large codebases, React, or design tools.</p>
+                        <p>  Examples links(click on these) :
+                            <a href="https://www.amazon.in/Lenovo-IdeaPad-35-56cm-2-8K-OLED-83D2001GIN/dp/B0CY2LDT1S" target="_blank"> Link 1</a> ,
+                            <a href="https://www.amazon.in/ASUS-39-62cm-i7-13620H-GeForce-FX507VV-LP287W/dp/B0D25TQNN7" target="_blank"> Link 2</a>
+                        </p>
+
+                        <p>This guide should help you make an informed decision and get a laptop that suits both your academic and extracurricular needs at IIIT Hyderabad.</p>
 
 
                         </div>
