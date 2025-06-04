@@ -247,13 +247,22 @@ function Kit() {
                       <div className="section">
                         <h3 className="section-title">🎓 Welcome to IIIT Hyderabad</h3>
                         <div className="subsection">
-                          <p>Dear Students,</p>
-                          <p>It gives me immense pleasure to welcome you to IIIT Hyderabad. As you embark on this exciting journey, you are joining an institution known for its academic excellence, innovative research, and vibrant campus life.</p>
-                          <p>At IIIT-H, we believe in fostering not just technical expertise, but also critical thinking, creativity, and leadership skills. Our unique curriculum, world-class faculty, and state-of-the-art facilities are designed to help you reach your full potential.</p>
-                          <p>The institute's focus on research, innovation, and entrepreneurship provides numerous opportunities for you to explore your interests and make meaningful contributions to society. I encourage you to take full advantage of these resources and create your own path to success.</p>
-                          <p>Remember, your journey here is not just about acquiring knowledge; it's about growing as individuals, forming lasting friendships, and preparing for the challenges of tomorrow.</p>
-                          <p>I wish you all the best for your academic journey ahead.</p>
-                          <p><strong>Prof. P.J. Narayanan</strong><br />Director, IIIT Hyderabad</p>
+                        <p>Dear Students and Parents,</p>
+
+                        <p>Congratulations on securing a seat in one of the many programs at IIIT Hyderabad. IIIT-H is a unique institution where the primary goal of education is not just preparing students for a high-profile first job, but nurturing a mature world-view and a long-term vision. We aim to equip our students with the skills, habits, and attitudes needed for the last job they might take up, decades into the future.</p>
+
+                        <p>As a research university, IIIT-H places a strong emphasis on undergraduate research. It is consistently ranked among the top technology institutes in India, particularly excelling in AI and related areas. We measure our success by the quality of research and the impact we make on society. Our faculty and students work on cutting-edge problems in language translation, speech technologies, robotics, computer vision, VLSI, quantum computing, computational social sciences, and more. Applied research that benefits society directly—through start-ups, technology transfers, and large-scale societal applications—is a major priority here.</p>
+
+                        <p>IIIT-H offers undergraduates an unparalleled opportunity to immerse themselves in research from early on. With options like the B.Tech (Honours) in four years and the integrated five-year MS by Research, you can choose a path that best matches your interests. Our innovative dual-degree programs—combining Computer Science with Natural Sciences, Human Sciences, and Linguistics—are trailblazers in interdisciplinary education in India.</p>
+
+                        <p>At IIIT-H, we value not just academic excellence but also extracurricular growth and self-reflection. Our pioneering Value Education program helps students reflect on their life goals and responsibilities and is now adopted by several other institutions as well.</p>
+
+                        <p>We are committed to making education accessible. Financial support is available to every student in need—through bank loans or alumni-funded pay-forward models—so that financial constraints do not hinder your academic journey.</p>
+
+                        <p>If your ambition is to make a meaningful impact on the world through technology, IIIT-H is the place for you. Be prepared to work hard, think independently, and contribute innovatively. With determination and the right mindset, you will thrive here. This year marks our 25th anniversary, and I’m thrilled to welcome the 26th batch of students to the IIIT-H family!</p>
+
+                        <p><strong>Prof. P.J. Narayanan</strong><br />Director, IIIT Hyderabad</p>
+
                         </div>
                       </div>
                     </div>
@@ -270,13 +279,32 @@ function Kit() {
                       <div className="section">
                         <h3 className="section-title">🌟 Welcome from Student Life Committee</h3>
                         <div className="subsection">
-                          <p>Dear Freshers,</p>
-                          <p>Welcome to IIIT Hyderabad! As the Student Life Committee, we're here to ensure that your transition into college life is smooth and enjoyable.</p>
-                          <p>College life is about finding the perfect balance between academics and extracurricular activities. At IIIT-H, you'll find numerous opportunities to pursue your interests, whether they lie in technology, arts, sports, or community service.</p>
-                          <p>Our vibrant campus hosts various clubs, cultural events, and sports activities throughout the year. From Felicity (our annual cultural fest) to technical workshops and hackathons, there's always something exciting happening on campus.</p>
-                          <p>We're here to support you in every aspect of your campus life. Don't hesitate to reach out to us or your seniors for guidance or assistance.</p>
-                          <p>Looking forward to meeting you all!</p>
-                          <p><strong>Student Life Committee</strong><br />IIIT Hyderabad</p>
+                        <p>Dear Freshers,</p>
+
+                        <p>Dear Freshers,</p>
+
+                        <p>Congratulations and a very warm welcome to the International Institute of Information Technology, Hyderabad (IIIT-H). You are about to begin an exciting new chapter in your life, filled with opportunities, challenges, and memorable experiences.</p>
+
+                        <p>At IIIT-H, we place equal importance on rigorous academics and holistic personal development. The Student Life Committee (SLC) is dedicated to enriching your student journey by overseeing all activities related to campus life, including clubs, events, and cultural programs.</p>
+
+                        <p>This student kit has been thoughtfully compiled to help you settle in with ease. It includes:</p>
+                        <ul>
+                        <p>• Welcome message from the Director</p>
+                        <p>• Message from the student mentor body with insights into student life at IIIT-H</p>
+                        <p>• A checklist of documents and essentials to bring for physical registration</p>
+                        <p>• Guidelines on how to reach IIIT-H</p>
+                        <p>• Procedures and schedule of orientation activities for the first two days</p>
+                        <p>• A list of hotels nearby for parents’ accommodation during this period</p>
+
+                        </ul>
+
+                        <p>We hope this information helps you and your family during your transition to campus life. Should you need any assistance, we are always here to support you.</p>
+
+                        <p>Wishing you all the best as you begin your journey at IIIT-H!</p>
+
+                        <p>Tapan Kumar Sau<br />Chair, Student Life Committee<br />IIIT Hyderabad</p>
+
+
                         </div>
                       </div>
                     </div>
@@ -293,13 +321,49 @@ function Kit() {
                       <div className="section">
                         <h3 className="section-title">👋 Greetings from APEX Body</h3>
                         <div className="subsection">
-                          <p>Hey there, future IIITians!</p>
-                          <p>On behalf of the APEX Body, the student representatives of IIIT Hyderabad, we're thrilled to welcome you to our campus family!</p>
-                          <p>The APEX Body serves as a bridge between students and administration, working to enhance campus life and address student concerns. We organize various events and initiatives throughout the year to foster a sense of community and ensure everyone's voice is heard.</p>
-                          <p>As freshers, you'll be part of our mentorship program, where seniors will guide you through academic and campus life. We also coordinate with various clubs and committees to create opportunities for skill development and personal growth.</p>
-                          <p>Remember, college life is what you make of it. Participate actively, make friends, pursue your passions, and most importantly, enjoy your time here!</p>
-                          <p>See you on campus!</p>
-                          <p><strong>APEX Body</strong><br />Student Representatives, IIIT Hyderabad</p>
+                        <p>Dear Fresher,</p>
+
+                        <p>As a fresher, the greatest fear for most was to walk out of the dear home with familiar faces and walk into a large hall with an unknown visage, as nervous and frightened as you and honestly have no idea what to do next. And that, my friend, is where the magic happens.</p>
+
+                        <p>So, congratulations! You can go and ahead finally put those prep books in your attic now, no need for them anymore! (Well at least not in first year) The fire-breathing dragon that had descended in the form of endless entrance exams, sleepless nights trying to figure out that “last” question, comparisons with the “sharmaji ka beta” and aunties who inquire about your “well-being” all are going to become a distant past. The dragon is now slayed and you are knocking on the doors from where college life starts.</p>
+
+                        <p>The image of clean uniforms, plaited hair and spotless polished black shoes will very soon seem like a distant memory. Once in college, the sheltered lifestyle of schooling will become nearly obsolete, giving way to a courageous, ambitious and conscious individual. Yes, that will be you. This introspection, the consciousness and the courage will not come easy, mind you! It will be gruelling and challenging, as you will be striving to be better than yourself, everyday. That's not a scary thing though. That's what college is meant for.</p>
+
+                        <p>You would often find yourself doing tasks out of your comfort zone, face challenges that initially look intimidating. Whether it’s academic things like doing well in a course, doing research work, competitive coding or exciting internships, or other things like playing sports, writing for the college magazine, dancing for the college fest, creating your own band and performing in November Jam, and so many other fun activities. Explore talents that you never knew you had, and find something that you are really passionate about. Make sure to get a piece of everything the college has to offer. Don’t hold back and try to participate in everything you possibly can. Enjoy these years as much as you can. There is nothing like them. Don’t be afraid to do things because you might fail, but, live and fail often.</p>
+
+                        <p>We, here at IIIT-H, are a tight knit family. Owing to the relatively small size of our community and campus, you will know everyone by name, and will bond with juniors and seniors alike. You will be embark on this journey with your batch mates and seniors, later joined by your own juniors (currently fighting those dragons), while the faculty and professors watch on as guardians, nudging you towards your own path. In this process, you will be part of unbreakable bonds and camaraderie leaving an indelible mark on lives in college. If you feel stuck and lost, there are people at every step willing to help you, reach out to them.</p>
+
+                        <p>We know that you will have many questions, concerns or problems. The institute has constituted a mentoring system, which enables student mentors to assist the freshmen in overcoming any hurdles that they might be experiencing. We have an Apex body of students who, in conjunction with their Faculty guides, will be coordinating with your direct student mentors. Your mentors and us, the Apex Body, are always available for you to contact with any issues throughout the year. If there is anything we can help you or your parents with, it would be our pleasure to do so. Our Email IDs are given below to get in touch with us at any point of time.</p>
+
+                        <p><br /><strong>Members:</strong></p>
+                        <p><a href="mailto:mohammed.ihsan@students.iiit.ac.in">Mohammed Ihsan Ali</a></p>
+                        <p><a href="mailto:soumil.gupta@students.iiit.ac.in">Soumil Gupta</a></p>
+                        <p><a href="mailto:vaishnavi.shivkumar@students.iiit.ac.in">Vaishnavi Shivkumar</a></p>
+                        <p><a href="mailto:sujal.deoda@research.iiit.ac.in">Sujal Deoda</a></p>
+                        <p><a href="mailto:rishabh.patnaik@students.iiit.ac.in">Rishabh Patnaik</a></p>
+                        <p><a href="mailto:bipasha.garg@research.iiit.ac.in">Bipasha Garg</a></p>
+                        <p><a href="mailto:karthikeya.busam@students.iiit.ac.in">Karthikeya Busam</a></p>
+                        <p><a href="mailto:pratishtha.saxena@research.iiit.ac.in">Pratishtha Saxena</a></p>
+                        <p><a href="mailto:tanish.gupta@research.iiit.ac.in">Tanish Gupta</a></p>
+                        <p><a href="mailto:dhruv.bansal@students.iiit.ac.in">Dhruv Bansal</a></p>
+                        <p><a href="mailto:harshita.kumari@students.iiit.ac.in">Harshita Kumari</a></p>
+                        <p><a href="mailto:ishaan.romil@research.iiit.ac.in">Ishaan Romil</a></p>
+                        <p><a href="mailto:kiran.r@research.iiit.ac.in">Kiran R</a></p>
+                        <p><a href="mailto:krishna.goel@research.iiit.ac.in">Krishna Goel</a></p>
+                        <p><a href="mailto:krrish.goenka@research.iiit.ac.in">Krrish Goenka</a></p>
+                        <p><a href="mailto:manas.agrawal@research.iiit.ac.in">Manas Agrawal</a></p>
+                        <p><a href="mailto:nilanjana.de@research.iiit.ac.in">Nilanjana De</a></p>
+                        <p><a href="mailto:sukasi.manidhar@students.iiit.ac.in">Sukasi Manidhar</a></p>
+
+                        
+                        <p><br /><strong>Advisors:</strong></p>
+                        <p><a href="mailto:rishabh.patnaik@students.iiit.ac.in">Rishabh Patnaik</a></p>
+                        <p><a href="mailto:hardik.mittal@research.iiit.ac.in">Hardik Mittal</a></p>
+
+                        <p>Welcome to college life! You're gonna love it! Don’t hold back! Make your own memories!</p>
+
+                        <p>— The Apex Body '24</p>
+
                         </div>
                       </div>
                     </div>
