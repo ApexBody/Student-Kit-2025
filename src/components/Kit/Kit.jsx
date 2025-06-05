@@ -1375,7 +1375,7 @@ function Kit() {
                                 <li><strong>Washing machines</strong> on each floor</li>
                                 <li><strong>TV rooms</strong> for entertainment and relaxation</li>
                                 <li><strong>General stores</strong> for daily necessities</li>
-                                <li><strong>Barber shop</strong> for grooming needs</li>
+                              
                                 <li><strong>Gyms</strong> for fitness enthusiasts</li>
                                 <li><strong>Indoor sports facilities</strong> - table tennis, chess, carrom</li>
                               </ul>
